@@ -42,6 +42,7 @@ export const FooterBox = styled.div`
   width: 100%;
   height: 400px;
   background-color: green;
+
   
 `
 
@@ -49,6 +50,11 @@ export const Item = styled.div`
   display: flex;
   flex-direction: column;
   width: 200px;
+  background-color: #61dafb;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 
 `

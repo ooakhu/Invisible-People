@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, FooterBox, Item, Socials, SocialsContainer} from "./style";
 import {FiTwitter} from 'react-icons/fi'
+import {MemberButton} from "../Buttons/style";
 
 
 const Footer = () => {
@@ -20,16 +21,20 @@ const Footer = () => {
                     <FiTwitter/>
                 </Socials>
             </SocialsContainer>
+            <h3>We Occasionally Send Out Awesome Stuff</h3>
+            <input/>
+            <MemberButton>Submit</MemberButton>
             <FooterBox>
                 <Item>
                     <h3>About</h3>
                     <h4>Our Mission</h4>
                     <h4>Our History</h4>
                     <h4>Our Team</h4>
+
                 </Item>
 
                 <Item>
-                    <h3>Events % Programs</h3>
+                    <h3>Events & Programs</h3>
                     <h4>Our Mission</h4>
                     <h4>Our History</h4>
                     <h4>Our Team</h4>

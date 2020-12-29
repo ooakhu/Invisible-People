@@ -15,12 +15,12 @@ export const BodyCard = () => {
             <HeaderCard/>
             <SectionOne/>
             <SectionTwo/>
-            <SectionThree/>
-            <SectionFour/>
+            {/*<SectionFour/>*/}
             <SectionFive/>
-            <Partnership/>
-            <Encourage/>
-            <ReachOut/>
+            <SectionThree/>
+            {/*<Partnership/>*/}
+            {/*<Encourage/>*/}
+            {/*<ReachOut/>*/}
             <Footer/>
         </BodyBox>
     )

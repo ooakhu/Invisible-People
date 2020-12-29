@@ -26,7 +26,6 @@ const Footer = () => {
                     <h4>Our Mission</h4>
                     <h4>Our History</h4>
                     <h4>Our Team</h4>
-
                 </Item>
 
                 <Item>

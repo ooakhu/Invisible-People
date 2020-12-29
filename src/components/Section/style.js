@@ -5,42 +5,54 @@ export const SecondHeader = styled.div`
   width: 100%;
   height: 350px;
   background-color: white;
-  text-align: center;
+  text-align: left;
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
   
   p {
     
-    font-size: x-large;
-    font-weight: bolder;
+    font-size: xx-large;
+    line-height: 40px;
+    //font-weight: bolder;
     
   }
 `
 
 export const ThirdHeader = styled.div`
   width: 100%;
-  height: 1000px;
+  height: 1200px;
   background-color: #E7EDFD;
   display: flex;
   flex-direction: column;
   align-items: center;
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
+  font-family: 'Rubik', sans-serif;
+  
   
 `
 export const PictureContainer = styled.div`
-  width: 80%;
-  background-color: white;
-  height: 60%;
+  width: 1220px;
+  background-color: #FDF7E7;
+  height: 57%;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
+  
   justify-content: space-evenly;
   img {
     width: 400px;
     height: 280px;
+    filter: brightness(80%);
   }
 
 `
 export const WhyUs = styled.div`
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 1220px;
     justify-content: flex-start;
     
 `
@@ -60,45 +72,67 @@ export const Title = styled.div`
     padding-left: 7px;
     width: 100%;
     text-decoration: none;
-    color: inherit;
+    color: #291B50;
     height: 100%;
+    
+    strong {
+      font-size: 26px;
+      font-weight: bolder;
+
+    }
     h4 {
         margin: 0;
     }
+    p {
+      font-size: 26px;
+    }
+    
   `
 export const WhyBox = styled.div`
   display: flex;
-
 `
 
 export const After = styled.div`
   display: flex;
-  height: 400px;
+  height: 570px;
   flex-direction: column;
   background-color: white;
   justify-content: center;
   align-items: center;
-  
+
+  h3 {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 `
 
 export const AfterBox = styled.div`
     display: flex;
     align-items: center;
-    background-color: aquamarine;
     width: 80%;
     justify-content: space-evenly;
 `
 export const AfterInner = styled.div`
   display: flex;
   flex-direction: column;
-  width: 23%;
+  width: 30%;
   align-items: center;
-  background-color: red;
   margin: 5px;
-  text-align: center;
+  height: 350px;
+  background-color: #E7EDFD;
+  justify-content: center;
   
-  h3{
+  p {
     text-align: center;
+    line-height: 30px;
+    width: 70%;
+    @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+    font-family: 'Hind Madurai', sans-serif;
+  }
+  h3{
+    width: 50%;
+    margin: 0px;
   }
   img {
     width: 100px;
@@ -118,42 +152,52 @@ export const Apply = styled.div`
 
 export const ApplicationProcess = styled.div`
   width: 100%;
-  height: 500px;
-  background-color: aquamarine;
+  height: 600px;
+  background-color: #B8CAF9;
   display: flex;
   flex-direction: column;
   align-items: center;
   
-`
+  h3 {
+    margin-bottom: 10px;
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+    font-family: 'Rubik', sans-serif;
+    color: red;
+    font-size: 35px;
+  }
+  strong {
+    font-size: 26px;
+    font-weight: bolder;
 
-export const Encouragement = styled.div`
-  width: 100%;
-  height: 500px;
-  background-color: cadetblue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  }
+  p {
+    font-size: 26px;
+    line-height: 7px;
+  }
   
+  h2 {
+    font-size: 25px;
+    color: red;
+  }
 `
 
-export const Eligibility = styled.div`
-  width: 100%;
-  height: 500px;
-  background-color: darksalmon;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-`
+// export const Encouragement = styled.div`
+//   width: 100%;
+//   height: 500px;
+//   background-color: cadetblue;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//
+// `
 
-export const FAQ = styled.div`
+// export const Eligibility = styled.div`
+//   width: 100%;
+//   height: 500px;
+//   background-color: darksalmon;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//
+// `
 
-
-
-`
-
-export const Banner = styled.div`
-
-
-
-`

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  background-color: white;
+  background-color: black;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,6 @@ export const SocialsContainer = styled.div`
   display: flex;
   width: 100%;
   height: 150px;
-  margin: 25px;
   justify-content: center;
   align-items: center;
 
@@ -40,8 +39,9 @@ export const FooterBox = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 400px;
-  background-color: green;
+  height: 200px;
+  color: white;
+  background-color: black;
 
   
 `
@@ -55,6 +55,10 @@ export const Item = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  h3, h4 {
+    margin: 8px;
+  }
   
 
 `

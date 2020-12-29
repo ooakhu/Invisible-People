@@ -1,2 +1,2 @@
-# Invisible-People
-A website for masculine off center women (under development)
+# Invincible-People
+A website for the empowerment of masculine off center women (under development)

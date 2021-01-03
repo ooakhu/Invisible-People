@@ -74,7 +74,6 @@ export const Item = styled.div`
   display: flex;
   flex-direction: column;
   width: 250px;
-  //background-color: #61dafb;
   margin: 10px;
   display: flex;
   flex-direction: column;

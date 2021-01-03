@@ -59,20 +59,5 @@ export const ApplyButton = styled.button`
   font-size: 25px;
   font-weight: bolder;
   margin-top: 55px;
-
-  //@media(min-width: 1280px) and (max-width: 1440px){
-  //  width: 80px;
-  //  height: 23px;
-  //  font-size: 10px;
-  //}
-  //@media(min-width: 800px) and (max-width: 1200px){
-  //  width: 80px;
-  //  height: 23px;
-  //  font-size: 10px;
-  //}
-  //@media(min-width: 320px) and (max-width: 428px){
-  //  width: 80px;
-  //  height: 23px;
-  //  font-size: 10px;
-  //}
+  
 `

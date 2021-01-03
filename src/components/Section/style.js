@@ -12,12 +12,14 @@ export const SecondHeader = styled.div`
   flex-direction: column;
   
   p {
-    
     font-size: xx-large;
     line-height: 40px;
-    //font-weight: bolder;
-    
   }
+
+  @media(min-width: 1280px) and (max-width: 1440px){
+    height: 420px;
+  }
+ 
 `
 
 export const ThirdHeader = styled.div`
@@ -138,6 +140,25 @@ export const AfterInner = styled.div`
     width: 100px;
     height: 100px;
   }
+  @media(min-width: 1280px) and (max-width: 1440px){
+
+    p {
+      line-height: 25px;
+      width: 80%;
+    }
+    h3 {
+      height: 75px;
+    }
+  }
+  @media(min-width: 800px) and (max-width: 1200px){
+
+    p {
+      line-height: 25px;
+    }
+    h3 {
+      height: 75px;
+    }
+  }
 
 `
 export const Apply = styled.div`
@@ -153,7 +174,7 @@ export const Apply = styled.div`
 export const ApplicationProcess = styled.div`
   width: 100%;
   height: 600px;
-  background-color: #B8CAF9;
+  background: linear-gradient(90deg, rgba(169,36,140,0.6643032212885154) 30%, rgba(226,66,52,0.5158438375350141) 73%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,7 +183,7 @@ export const ApplicationProcess = styled.div`
     margin-bottom: 10px;
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
     font-family: 'Rubik', sans-serif;
-    color: red;
+    color: black;
     font-size: 35px;
   }
   strong {
@@ -177,7 +198,7 @@ export const ApplicationProcess = styled.div`
   
   h2 {
     font-size: 25px;
-    color: red;
+    color: black;
   }
 `
 

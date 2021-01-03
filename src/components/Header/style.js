@@ -1,21 +1,23 @@
 import styled from 'styled-components'
 import img from './background.svg';
 
+
 export const SmallHeaderBox = styled.div`
   display: flex;
   background-color: white;
-  height: 100px;
+  height: 4%;
   
   .welcome {
     width: 50%;
     display: flex;
     justify-content: flex-start;
-    height: 100px;
+    height: 4%;
     align-self: center;
+
     img {
       margin-left: 20px;
-      width: 250px;
-      height: 100px;
+      width: 26.5%;
+      height: 100%;
       
     }
   }
@@ -26,14 +28,20 @@ export const SmallHeaderBox = styled.div`
     align-items: center;
     justify-content: space-evenly;
   }
+
+  @media(min-width: 1280px) and (max-width: 1440px){
+    font-size: small;
+  }
+  @media(min-width: 800px) and (max-width: 1200px){
+    font-size: small;
+  }
 `
 
 
 export const HeaderBox = styled.div`
   display: flex;
   width: 100%;
-  height: 350px;
-  // background-image: url(${img});
+  height: 29%;
   background:linear-gradient(to bottom, rgba(0,0,0,0) 70%, rgba(0,0,0,1)), url(${img});
   background-size: 100%;
   align-items: center;
@@ -55,7 +63,6 @@ export const HeaderBox = styled.div`
     margin: auto;
     margin-top: 280px;
     order: 2;
-    
   }
 
   .info {
@@ -94,6 +101,19 @@ export const HeaderBox = styled.div`
       border-radius: 40%;
       width: 100px;
       height: 35px;
+    }
+  }
+  @media(min-width: 1280px) and (max-width: 1440px){
+    h2 {
+      font-size: 38px;
+      width: 1000px;
+      text-align: center;
+      margin-top: 260px;
+    }
+  }
+  @media(min-width: 800px) and (max-width: 1200px){
+    h2 {
+      font-size: xx-large;
     }
   }
 `

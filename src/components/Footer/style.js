@@ -17,8 +17,12 @@ export const Container = styled.div`
   }
   
   input {
-    width: 400px;
+    width: 500px;
     height: 35px;
+    border-radius: 5px;
+  }
+  input:focus {
+    outline: none;
   }
   
   h3 {
@@ -32,6 +36,7 @@ export const SocialsContainer = styled.div`
   justify-content: center;
   width: 100%;
   height: 80px;
+  margin-top: 20px;
 
 
 `
@@ -77,6 +82,9 @@ export const Item = styled.div`
   
   h3, h4 {
     margin: 12px;
+    background: -webkit-linear-gradient(#eee, #6B7AD6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
 

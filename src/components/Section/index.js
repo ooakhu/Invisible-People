@@ -21,7 +21,7 @@ export const SectionOne = () => {
         <SecondHeader>
             <div style={{width:"50%", margin: "auto"}}>
                 <p>
-                    InvisiblePeople.org, Microsoft and Huskings are partnering to launch an intensive 6 months development
+                    InvinciblePeople.org, HoverSys and Huskings are partnering to launch an intensive 6 months development
                     program to increase the representation of masculine and gender nonconforming women in tech. Trainees are
                     provided with a laptop, stipends for data, food and power during the course of the program. And upon successful
                     completion, are helped with job placements.

@@ -1,5 +1,5 @@
 import React from 'react'
-import {SecondHeader, ThirdHeader, PictureContainer, WhyUs, Title, Icon, WhyBox, After,AfterBox,AfterInner, Apply, ApplicationProcess} from "./style"
+import {SecondHeader, ThirdHeader, PictureContainer, WhyUs, Title, Icon, WhyBox, After,AfterBox,AfterInner, ApplicationProcess} from "./style"
 import {ApplyBtn} from "../Buttons";
 
 
@@ -14,7 +14,6 @@ import living from "./living.svg"
 import graduate from "./graduate.svg"
 import money from "./money.svg"
 import opportunities from "./opportunities.svg"
-import {Container} from "../BottomSections/SecSix/style";
 
 export const SectionOne = () => {
     return (

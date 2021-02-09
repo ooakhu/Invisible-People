@@ -8,7 +8,7 @@ A proposed website to create the opportunity for gender non-conforming women in 
 
 ## Visuals
 
-[Imgur](https://i.imgur.com/2Qvf3ID.png)
+![image](https://imgur.com/2Qvf3ID)
 
 ## Project Status
 I am still actively developing and contributing to this project

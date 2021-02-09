@@ -19,7 +19,7 @@
 
 
 # Project Status
-### All though this project has been deployed, i am still actively working on it.
+### Although this project has been deployed, i am still actively working on it.
 ### You can find the deployed project here [InvinciblePeople](https://eager-franklin-666f6f.netlify.app/)
 
 

@@ -13,7 +13,7 @@
 
 # Built With
 
-* [REACT](https://.com)
+* [REACT](https://reactjs.org/) A JavaScript library for building user interfaces
 * [HTML](https://.com)
 * [CSS](https://.com)
 

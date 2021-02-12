@@ -14,8 +14,8 @@
 # Built With
 
 * [REACT](https://reactjs.org/) A JavaScript library for building user interfaces
-* [HTML](https://.com)
-* [CSS](https://.com)
+* [HTML](https://www.w3schools.com/html/)
+* [CSS](https://www.w3schools.com/css/)
 
 
 # Project Status
